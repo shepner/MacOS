@@ -34,7 +34,8 @@ ln -s ~/aax2mp3tools/AAXtoMP3-master/AAXtoMP3 ~/bin/AAXtoMP3
 ```
 
 
-To get the activation key: `audible-activator.py -l us`
+To get the activation key run `audible-activator.py -l us` and the last line is the string needed for AAXtoMP3
 
-The last line is the string needed for AAXtoMP3
+To convert to MP3, run `AAXtoMP3.sh <authcode> <aax-file>`.  You can use wildcards (ie \*.aax) for the filename
+
 
