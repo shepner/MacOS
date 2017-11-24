@@ -17,15 +17,19 @@ cd ~/aax2mp3tools
 wget https://github.com/inAudible-NG/audible-activator/archive/master.zip
 unzip master.zip
 rm master.zip
-cd audible-activator-master
-ln -s ~/aax2mp3tools/audible-activator-master/audible-activator.py ~/bin/audible-activator.py
-
-#AAXtoMP3
 pip install requests
 pip install selenium
-brew install ffmpeg
-wget https://chromedriver.storage.googleapis.com/2.27/chromedriver_linux64.zip
+cd audible-activator-master
+ln -s ~/aax2mp3tools/audible-activator-master/audible-activator.py ~/bin/audible-activator.py
+#make sure the correct ver is installed:  https://sites.google.com/a/chromium.org/chromedriver/downloads
+wget https://chromedriver.storage.googleapis.com/2.33/chromedriver_mac64.zip
 unzip chromedriver_linux64.zip
+
+#AAXtoMP3
+wget https://github.com/KrumpetPirate/AAXtoMP3/archive/master.zip
+unzip master.zip
+rm master.zip
+brew install ffmpeg
 ln -s ~/aax2mp3tools/AAXtoMP3-master/AAXtoMP3 ~/bin/AAXtoMP3
 ```
 
