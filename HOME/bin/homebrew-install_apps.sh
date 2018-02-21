@@ -11,6 +11,12 @@ brew cask list
 #brew upgrade
 #brew cask upgrade
 
+#get rid of the old versions
+#brew cleanup
+#brew cask cleanup
+
+#brew cask upgrade
+
 #brew cask search virtual  # Example of how to search caskroom
 
 brew cask install virtualbox
