@@ -3,6 +3,14 @@
 brew update
 brew tap caskroom/cask
 
+#lets see whats already installed
+brew list
+brew cask list
+
+#update the system
+#brew upgrade
+#brew cask upgrade
+
 #brew cask search virtual  # Example of how to search caskroom
 
 brew cask install virtualbox
