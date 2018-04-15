@@ -43,3 +43,5 @@ brew cask install vlc
 
 brew install r
 brew cask install rstudio
+
+brew cask install anaconda
