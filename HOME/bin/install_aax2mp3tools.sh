@@ -3,7 +3,7 @@
 WORKDIR=~/local/aax2mp3tools
 DOWNLOADS=$WORKDIR/downloads/
 
-mkdir -p $WORKDIR
+mkdir -p $DOWNLOADS
 mkdir -p $HOME/bin
 
 ###
