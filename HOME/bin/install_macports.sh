@@ -42,8 +42,8 @@ cat >> $HOME/.profile << EOF
 
 # MacPorts
 if [ -d \$HOME/local/macports ]; then
-	export PATH=\$HOME/local/macports/bin:\$HOME/local/macports/sbin:\$PATH
-	export MANPATH=\$HOME/local/macports/share/man:\$MANPATH
+  export PATH=\$HOME/local/macports/bin:\$HOME/local/macports/sbin:\$PATH
+  export MANPATH=\$HOME/local/macports/share/man:\$MANPATH
 fi
 
 EOF
