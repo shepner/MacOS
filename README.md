@@ -4,6 +4,7 @@ Mac OS specific utils and tweaks
 [Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
 
 [Where should a local executable be placed?](https://unix.stackexchange.com/questions/36871/where-should-a-local-executable-be-placed)
+
 The full local hierarchy would look like this.
 * $HOME/bin Local binaries
 * $HOME/etc Host-specific system configuration for local binaries
