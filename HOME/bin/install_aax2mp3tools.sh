@@ -6,7 +6,7 @@ DOWNLOADS=$WORKDIR/downloads/
 mkdir -p $DOWNLOADS
 mkdir -p $HOME/bin
 
-###
+####
 
 # audible-activator
 # https://github.com/inAudible-NG/audible-activator
@@ -21,7 +21,7 @@ ln -s $WORKDIR/audible-activator/audible-activator.py $HOME/bin/audible-activato
 wget -P $DOWNLOADS https://chromedriver.storage.googleapis.com/2.33/chromedriver_mac64.zip
 unzip -jf $DOWNLOADS/chromedriver_mac64.zip -d $WORKDIR/audible-activator
 
-###
+####
 
 # AAXtoMP3
 # https://github.com/KrumpetPirate/AAXtoMP3
