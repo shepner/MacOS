@@ -1,32 +1,38 @@
 #!/bin/sh
 
-brew update
-brew tap caskroom/cask
+brew update    # update homebew itself
 
-#lets see whats already installed
-brew list
-brew cask list
+brew list  # lets see whats already installed
+echo "Press a key to continue" ; read
+brew outdated  # check to see what isnt needed anymore
+brew upgrade   # update the everything
+brew cleanup   # get rid of the old versions
 
-#update the system
-#brew upgrade
-#brew cask upgrade
+brew tap caskroom/cask  # this is where the non-OpenSource stuff is stored
+brew cask list  # lets see whats already installed
+echo "Press a key to continue" ; read
+brew cask outdated  # check to see what isnt needed anymore
+brew cask upgrade   # update the everything
+brew cask cleanup   # get rid of the old versions
 
-#get rid of the old versions
-#brew cleanup
-#brew cask cleanup
 
-#brew cask upgrade
-
-#brew cask search virtual  # Example of how to search caskroom
 
 ###############################################
+brew install wget
+brew install ffmpeg
+brew install python2
+brew install python3
+
+
+###############################################
+#brew cask search virtual  # Example of how to search caskroom
 
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
 
 brew cask install evernote
 
-brew cask install path-finder
+#brew cask install path-finder
 
 brew cask install dropbox
 
@@ -43,7 +49,6 @@ brew cask install steam
 
 brew cask install vlc
 
-brew install r
-brew cask install rstudio
+#brew install r
+#brew cask install rstudio
 
-#brew cask install anaconda
