@@ -10,8 +10,9 @@ TMPDIR=/tmp/macports
 
 export PATH=/bin:/sbin:/usr/bin:/usr/sbin
 
+WORKDIR=$HOME/local/macports
 
-mkdir -p $HOME/macports
+mkdir -p $WORKDIR
 mkdir -p $TMPDIR
 
 cd $TMPDIR
@@ -27,9 +28,9 @@ GROUP=`id -gn`
 #GROUP=869469075  #python -c 'import grp; print grp.getgrnam("CP\Domain Users").gr_gid'  #doesnt like this either
 #GROUP=CP\\Domain\\ Users  #this results with "admin"
 
-#./configure --enable-readline --prefix=$HOME/macports --with-install-user=$USER --with-install-group=$GROUP
-#./configure --enable-readline --prefix=$HOME/macports --with-install-user=$USER --with-applications-dir=$HOME/Applications
-./configure --enable-readline --prefix=$HOME/macports --with-install-user=$USER --with-install-group=$GROUP  --with-applications-dir=$HOME/Applications
+#./configure --enable-readline --prefix=$WORKDIR --with-install-user=$USER --with-install-group=$GROUP
+#./configure --enable-readline --prefix=$WORKDIR --with-install-user=$USER --with-applications-dir=$HOME/Applications
+./configure --enable-readline --prefix=$WORKDIR --with-install-user=$USER --with-install-group=$GROUP  --with-applications-dir=$HOME/Applications
 
 make
 make install
@@ -40,9 +41,9 @@ rm -Rf $TMPDIR
 cat >> $HOME/.profile << EOF
 
 # MacPorts
-if [ -d \$HOME/macports ]; then
-	export PATH=\$HOME/macports/bin:\$HOME/macports/sbin:\$PATH
-	export MANPATH=\$HOME/macports/share/man:\$MANPATH
+if [ -d \$HOME/local/macports ]; then
+	export PATH=\$HOME/local/macports/bin:\$HOME/local/macports/sbin:\$PATH
+	export MANPATH=\$HOME/local/macports/share/man:\$MANPATH
 fi
 
 EOF
