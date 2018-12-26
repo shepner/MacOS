@@ -14,12 +14,12 @@ mkdir -p $HOME/bin
 pip3 install requests
 pip3 install selenium
 
-wget -O $DOWNLOADS/audible-activator.zip https://github.com/inAudible-NG/audible-activator/archive/master.zip
+wget -N -O $DOWNLOADS/audible-activator.zip https://github.com/inAudible-NG/audible-activator/archive/master.zip
 unzip -j -o $DOWNLOADS/audible-activator.zip -d $WORKDIR/audible-activator
 rm -f $HOME/bin/audible-activator.py
 ln -s $WORKDIR/audible-activator/audible-activator.py $HOME/bin/audible-activator.py
 
-wget -P $DOWNLOADS https://chromedriver.storage.googleapis.com/2.33/chromedriver_mac64.zip
+wget -N -P $DOWNLOADS https://chromedriver.storage.googleapis.com/2.33/chromedriver_mac64.zip
 unzip -j -o $DOWNLOADS/chromedriver_mac64.zip -d $WORKDIR/audible-activator
 
 ####
@@ -29,7 +29,7 @@ unzip -j -o $DOWNLOADS/chromedriver_mac64.zip -d $WORKDIR/audible-activator
 
 brew install ffmpeg
 
-wget -O $DOWNLOADS/AAXtoMP3.zip https://github.com/KrumpetPirate/AAXtoMP3/archive/master.zip
+wget -N -O $DOWNLOADS/AAXtoMP3.zip https://github.com/KrumpetPirate/AAXtoMP3/archive/master.zip
 unzip -j -o $DOWNLOADS/AAXtoMP3.zip -d $WORKDIR/AAXtoMP3
 rm -f $HOME/bin/AAXtoMP3
 ln -s $WORKDIR/AAXtoMP3/AAXtoMP3 $HOME/bin/AAXtoMP3
