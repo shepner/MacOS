@@ -10,7 +10,7 @@ cat >> $HOME/.profile << EOF
 
 # Homebrew
 if [ -d \$WORKDIR ]; then
-	export PATH=\$HOME/local/homebrew/bin:\$HOME/local/homebrew/sbin:\$PATH
+  export PATH=\$HOME/local/homebrew/bin:\$HOME/local/homebrew/sbin:\$PATH
 fi
 
 EOF
