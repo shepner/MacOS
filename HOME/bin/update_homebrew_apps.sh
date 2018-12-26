@@ -23,32 +23,39 @@ brew cleanup   # get rid of the old versions
 
 ###############################################
 brew install wget
-brew install python2
 brew install python3
-brew install macvim
+brew install python2
+
+
 
 
 ###############################################
-brew cask install virtualbox
-brew cask install virtualbox-extension-pack
-
-brew cask install evernote
-
-#brew cask install path-finder
-
-brew cask install dropbox
-
+brew cask install keepingyouawake
 brew cask install firefox
+#brew cask installthunderbird
 brew cask install google-chrome
+brew cask install macvim
 
 brew cask install istat-menus
 
-brew cask install keepingyouawake
+brew cask install evernote
+brew cask install dropbox
+brew cask install quicken
+
+brew cask install vlc
+brew cask install plex-media-player
+brew cask install tinymediamanager
+#brew cask install handbrake
+#brew cask install mp3tag
 
 brew cask install steam
 
-brew cask install vlc
+brew cask install parallels
+#brew cask install virtualbox
+#brew cask install virtualbox-extension-pack
 
+brew cask install arduino
 #brew install r
 #brew cask install rstudio
 
+#brew cask install path-finder
