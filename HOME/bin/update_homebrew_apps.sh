@@ -16,17 +16,18 @@ brew cask upgrade   # update the everything
 brew cask cleanup   # get rid of the old versions
 
 
+# the search command will perform a case-insensitive search across all available repos
+#brew search <name>
 
 ###############################################
 brew install wget
 brew install ffmpeg
 brew install python2
 brew install python3
+brew install macvim
 
 
 ###############################################
-#brew cask search virtual  # Example of how to search caskroom
-
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
 
@@ -42,8 +43,6 @@ brew cask install google-chrome
 brew cask install istat-menus
 
 brew cask install keepingyouawake
-
-brew install vim
 
 brew cask install steam
 
