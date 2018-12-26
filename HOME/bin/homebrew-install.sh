@@ -1,21 +1,22 @@
 #!/bin/sh
 
-mkdir -p $HOME/homebrew
+WORKDIR=$HOME/local/homebrew
+mkdir -p $WORKDIR
 
-curl -L https://github.com/Homebrew/homebrew/tarball/master | tar xz --strip 1 -C $HOME/homebrew
+curl -N -L https://github.com/Homebrew/homebrew/tarball/master | tar xz --strip 1 -C $WORKDIR
 
 
 cat >> $HOME/.profile << EOF
 
 # Homebrew
-if [ -d \$HOME/homebrew ]; then
-	export PATH=\$HOME/homebrew/bin:\$HOME/homebrew/sbin:\$PATH
+if [ -d \$WORKDIR ]; then
+	export PATH=\$HOME/local/homebrew/bin:\$HOME/local/homebrew/sbin:\$PATH
 fi
 
 EOF
+
 
 echo "\n\nNext steps:"
 echo "1) adjust ~/.profile as appropriate"
 echo "2) restart terminal"
 echo "3) run \`brew update\`"
-
