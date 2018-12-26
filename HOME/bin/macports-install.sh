@@ -4,7 +4,7 @@
 #http://truongtx.me/2013/11/08/macports-from-home-directory/
 
 #this is the file to download
-FILE="MacPorts-2.4.2.tar.bz2"
+FILE="MacPorts-2.5.4.tar.bz2"
 
 TMPDIR=/tmp/macports
 
@@ -52,3 +52,4 @@ echo "1) adjust ~/.profile as appropriate"
 echo "2) restart terminal"
 echo "3) connect to guest"
 echo "4) run \`port -v selfupdate\`"
+
