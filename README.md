@@ -1,9 +1,9 @@
 # UNIX-OSX
 Mac OS specific utils and tweaks
 
-Run this to bootstrap:
+Run this to bootstrap a new system:
 ``` Shell
-bash <(curl -s https://raw.githubusercontent.com/shepner/MacOS/master/HOME/bin/install_profile.sh)
+bash <(curl -s https://raw.githubusercontent.com/shepner/MacOS/master/bootstrap.sh)
 ```
 
 ---
