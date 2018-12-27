@@ -12,7 +12,7 @@ fi
 # aliases
 alias h="history"
 
-if [ -d $HOME/bin/mvim ] ; then
+if [ -f `which mvim` ] ; then
   alias vim="mvim"
 fi
 
