@@ -9,7 +9,7 @@ xcode-select --install
 # Download/install the scripts
 git clone https://github.com/shepner/MacOS.git $WORKDIR
 cp -R $WORKDIR/HOME/ $HOME
-chmod 750 $HOME/bin/*
+chmod -R 750 $HOME/bin
 
 # Clean up after ourselves
 rm -Rf $WORKDIR
