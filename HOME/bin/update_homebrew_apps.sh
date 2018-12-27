@@ -35,12 +35,14 @@ brew cask install firefox
 #brew cask installthunderbird
 brew cask install google-chrome
 brew cask install macvim
+brew cask install grandperspective
 
 brew cask install istat-menus
 
 brew cask install evernote
 brew cask install dropbox
 brew cask install quicken
+brew cask install a-better-finder-rename
 
 brew cask install vlc
 brew cask install plex-media-player
@@ -55,6 +57,8 @@ brew cask install parallels
 #brew cask install virtualbox-extension-pack
 
 brew cask install arduino
+brew cask install fritzing
+brew cask install balenaetcher
 #brew install r
 #brew cask install rstudio
 
