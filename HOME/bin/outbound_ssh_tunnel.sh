@@ -17,6 +17,10 @@ else
   echo "ssh tunnel already running"
 fi
 
+##################################################################
+# THE FOLLOWING IS JUST DOCUMENTATION.  DONT RUN FROM THIS SCRIPT!
+##################################################################
+
 # on <central ssh server> run the following:
 #cat >> /etc/ssh/sshd_config << EOF
 #GatewayPorts yes
@@ -25,7 +29,6 @@ fi
 
 # from <workstation2>, ssh to <central ssh server> on port 2222 (which is connected to: <workstation1>:22)
 #   and login as <user1> on <workstation1>
-# DONT THIS RUN FROM HERE!
 #ssh -p 2222 <user1>@<central ssh server>
 
 # then do the following to enable key authentication
