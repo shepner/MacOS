@@ -51,10 +51,7 @@ set nowritebackup
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plugins
 
-call plug#begin('~/.vim/plugged')
-
-"vim-plug
-Plug 'iberianpig/ranger-explorer.vim'
+"call plug#begin('~/.vim/plugged')
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
