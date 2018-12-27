@@ -9,4 +9,4 @@ chmod 750 $HOME/bin
 
 rm -Rf $WORKDIR/MacOS
 
-/usr/libexec/locate.updatedb &
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
