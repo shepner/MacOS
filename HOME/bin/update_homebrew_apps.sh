@@ -26,7 +26,7 @@ brew install wget
 brew install python3
 brew install python2
 
-
+brew install tintin
 
 
 ###############################################
