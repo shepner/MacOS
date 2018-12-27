@@ -12,7 +12,7 @@ cp -R $WORKDIR/HOME/ $HOME
 chmod 750 $HOME/bin
 
 # Clean up after ourselves
-rm -Rf $WORKDIR/MacOS
+rm -Rf $WORKDIR
 
 # Setup the database for locate
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
