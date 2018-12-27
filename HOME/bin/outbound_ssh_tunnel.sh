@@ -1,8 +1,7 @@
 #!/bin/sh
 # Use this to work around an annoying ISP's controls
 # ADJUST AS APPROPRIATE
-#
-#
+
 # from <workstation1>, ssh to <central ssh server> on port 10000 and login as <user2>
 #   forward port 2222 from <central ssh server> to port 22 on <workstation1>
 #   and DONT open a shell and run in the background
