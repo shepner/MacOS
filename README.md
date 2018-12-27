@@ -1,8 +1,12 @@
 # UNIX-OSX
 Mac OS specific utils and tweaks
 
-[Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
+Run this to bootstrap:
+``` Shell
+bash <(curl -s https://raw.githubusercontent.com/shepner/MacOS/master/HOME/bin/install_profile.sh)
+```
 
+---
 
 [Where should a local executable be placed?](https://unix.stackexchange.com/questions/36871/where-should-a-local-executable-be-placed)
 
@@ -19,3 +23,5 @@ Mac OS specific utils and tweaks
 | $HOME/sbin    | Local system binaries                                 |
 | $HOME/share   | Local architecture-independent hierarchy              |
 | $HOME/src     | Local source code                                     |
+
+[Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
