@@ -22,6 +22,7 @@ brew cask install parallels
 #brew cask install virtualbox
 #brew cask install virtualbox-extension-pack
 
+brew cask install openoffice
 brew cask install evernote
 brew cask install dropbox
 brew cask install quicken
