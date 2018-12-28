@@ -36,3 +36,5 @@ fi
 # if desired, use sshuttle to establish a 'VPN'
 # https://github.com/sshuttle/sshuttle
 #sshuttle -r <user1>@<central ssh server>:2222 <0.0.0.0/0>
+
+# at this point, you can just connect to remote devices via TCP
