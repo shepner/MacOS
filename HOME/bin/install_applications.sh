@@ -34,6 +34,7 @@ brew cask install mcgimp
 
 brew cask install vlc
 brew cask install plex-media-player
+brew cask install calibre
 
 brew cask install tinymediamanager
 #brew cask install handbrake
