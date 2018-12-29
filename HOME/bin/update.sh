@@ -17,5 +17,5 @@ fi
 
 # MacOS
 # http://osxdaily.com/2011/01/13/install-mac-os-x-software-updates-terminal/
-softwareupdate -l  # list available updates
-sudo softwareupdate -iva  # install all updates
+#softwareupdate -l  # list available updates
+sudo softwareupdate --install --all --verbose  # install all updates
