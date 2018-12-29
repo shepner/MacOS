@@ -10,9 +10,9 @@ brew tap caskroom/cask  # this is where the non-OpenSource stuff is stored
 
 ###############################################
 
-brew list  # lets see whats already installed
-brew cask list  # lets see whats already installed
-echo "Press a key to continue" ; read
+#brew list  # lets see whats already installed
+#brew cask list  # lets see whats already installed
+#echo "Press a key to continue" ; read
 
 ###############################################
 
