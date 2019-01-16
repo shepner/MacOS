@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Authenticate to the proxy before running this!
+
 WORKDIR=$HOME/local/homebrew
 mkdir -p $WORKDIR
 
