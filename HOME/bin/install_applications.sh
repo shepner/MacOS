@@ -15,6 +15,7 @@ brew cask install keepingyouawake
 brew cask install grandperspective
 brew cask install istat-menus
 #brew cask install path-finder
+brew cask install geektool
 
 brew cask install google-chrome
 brew cask install firefox
