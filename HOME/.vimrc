@@ -9,6 +9,7 @@ behave mswin
 " Favorite Color Scheme
 if has("gui_running")
   colorscheme torte
+  set transparency=25
 endif
 
 " display 80th column
