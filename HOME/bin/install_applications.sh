@@ -53,6 +53,7 @@ brew install python3
 #pip3 install aws
 brew install python2
 #brew install r
+#brew cask install r-app
 #brew cask install rstudio
 brew cask install arduino
 #brew cask install fritzing
