@@ -18,6 +18,7 @@ brew cask install istat-menus
 brew cask install geektool
 
 brew cask install google-chrome
+brew cask install brave-browser
 brew cask install firefox
 #brew cask install thunderbird
 
