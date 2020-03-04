@@ -5,7 +5,7 @@
 install_homebrew.sh
 update_homebrew.sh
 
-brew tap caskroom/cask  # this is where the non-OpenSource stuff is stored
+brew tap Homebrew/homebrew-cask  # this is where the non-OpenSource stuff is stored
 
 ###############################################
 
