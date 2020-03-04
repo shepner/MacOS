@@ -9,6 +9,9 @@ brew tap Homebrew/homebrew-cask  # this is where the non-OpenSource stuff is sto
 
 ###############################################
 
+# To install a cask in an alternative location: https://github.com/Homebrew/homebrew-cask/blob/master/USAGE.md
+# brew cask install --appdir="~/Applications" google-chrome
+
 brew install wget
 brew cask install macvim
 brew cask install keepingyouawake
