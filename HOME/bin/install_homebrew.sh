@@ -13,7 +13,7 @@ cat >> $HOME/.profile << EOF
 # Homebrew
 if [ -d \$WORKDIR ]; then
   export PATH=\$HOME/local/homebrew/bin:\$HOME/local/homebrew/sbin:\$PATH
-  #export HOMEBREW_CASK_OPTS="--appdir=$HOME/Applications"  # default is '/Applications'
+  export HOMEBREW_CASK_OPTS="--appdir=$HOME/Applications"  # default is '/Applications'
 fi
 
 EOF
