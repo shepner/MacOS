@@ -5,7 +5,7 @@
 WORKDIR=$HOME/local/homebrew
 mkdir -p $WORKDIR
 
-curl -N -L https://github.com/Homebrew/homebrew/tarball/master | tar xz --strip 1 -C $WORKDIR
+curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C $WORKDIR
 
 
 cat >> $HOME/.profile << EOF
