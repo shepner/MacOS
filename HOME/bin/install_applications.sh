@@ -63,3 +63,6 @@ brew cask install arduino
 #brew cask install fritzing
 
 brew cask install balenaetcher
+
+# [MailTrackerBlocker](https://github.com/apparition47/MailTrackerBlocker)
+brew install apparition47/tap/mailtrackerblocker
